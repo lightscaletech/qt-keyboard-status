@@ -1,0 +1,7 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="trayicons">
+    <file alias="caps">img/tray_caps.png</file>
+    <file alias="num">img/tray_num.png</file>
+    <file alias="both">img/tray_both.png</file>
+</qresource>
+</RCC>
