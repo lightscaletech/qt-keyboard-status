@@ -1,0 +1,6 @@
+Makefile
+.qmake.stash
+bin/*
+moc/*
+obj/*
+qrc_resources.cpp
