@@ -31,3 +31,4 @@ sudo make install
 KeyboardStatus
 ```
 
+Copyright (c) 2017 Lightscale Tech Ltd
