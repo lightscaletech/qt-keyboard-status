@@ -13,7 +13,7 @@ This is only compatible with Linux.
 ## Install
 1. Clone the repo.
 2. Run qmake to create a make file.
-
+n
 ``` shell
 qmake
 ```
@@ -26,6 +26,7 @@ make
 
 4. Run make install to install the files into the system
 
+
 ``` shell
 sudo make install
 ```
@@ -36,3 +37,5 @@ sudo make install
 KeyboardStatus
 ```
 
+
+Copyright (c) 2017 Lightscale Tech Ltd
