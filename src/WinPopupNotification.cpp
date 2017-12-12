@@ -3,10 +3,13 @@
 #include <QVBoxLayout>
 #include <QLabel>
 #include <QTimer>
+#include <QStyle>
+#include <QDesktopWidget>
+#include <QApplication>
 
 WinPopupNotification::WinPopupNotification(QWidget * parent):
     QWidget(parent,
-            Qt::SplashScreen |
+            Qt::ToolTip |
             Qt::WindowStaysOnTopHint),
     nTimeout(1500)
 {
@@ -48,5 +51,11 @@ void WinPopupNotification::close()
 
 void WinPopupNotification::sizeAndPos()
 {
-
+    this->setGeometry(
+        QStyle::alignedRect(
+            Qt::LeftToRight,
+            Qt::AlignCenter,
+            nText->size(),
+            QApplication::desktop()->availableGeometry())
+        );
 }
